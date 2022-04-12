@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.subtitle {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+    text-align: center;
+}
+
+.title {
+    font-family: "Volkhov";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+    text-align: center;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+
+
+@import 'blocks/promo';
+@import 'blocks/offer';
+@import 'blocks/destinations';
+@import 'blocks/easy';
+@import 'blocks/review';
+@import 'blocks/logo';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+
+
+

@@ -1,0 +1,64 @@
+.subscribe {
+    padding-top: 120px;
+    &__wrapper {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 1170px;
+        height: 407px;
+        border-radius: 129px 20px 20px 20px;
+        background: rgba(223, 215, 249, .2);
+        &::before {
+            content: url("../icons/subscribe/send_icon.png");
+            position: absolute;
+            top: -5%;
+            left: 95%;
+        }
+        &-form {
+            padding-top: 70px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        padding-top: 79px;
+        width: 859px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 54px;
+        text-align: center;
+        color: #5E6282;
+    }
+    &__form {
+        input {
+            padding-left: 21px;
+            margin-right: 20px;
+            width: 400px;
+            height: 68px;
+            background: #FFFFFF;
+            border-radius: 10px;
+            font-family: "Poppins";
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #39425D;   
+        }
+    }
+    &__btn {
+        width: 180px;
+        height: 68px;
+        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+        border-radius: 10px;
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}

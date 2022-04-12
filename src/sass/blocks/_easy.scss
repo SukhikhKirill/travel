@@ -1,0 +1,46 @@
+.easy {
+    &__subtitle {
+        text-align: left;
+    }
+    &__title {
+        width: 511px;
+        text-align: left;
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__wrapper {
+        padding-top: 30px;
+        height: 290px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        &-img {
+            padding-right: 21px;
+        }
+        &-text {
+            width: 327px;
+            &_title {
+                font-family: "Poppins";
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 124.5%;
+                color: #5E6282;
+            }
+            &_descr {
+                padding-top: 4px;
+                font-family: "Poppins";
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 124.5%;
+                color: #5E6282;
+            }
+        }
+    }
+}

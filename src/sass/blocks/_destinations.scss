@@ -1,0 +1,66 @@
+.destinations {
+    padding-top: 105px;
+    &__wrapper {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item { 
+        display: flex;
+        align-items: flex-end;
+        width: 314px;
+        height: 457px;
+        filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+        border-radius: 24px;
+        cursor: pointer;
+        &-1 {
+        background: url("../img/destinations/bg_1.png") center (center/cover) no-repeat;
+        }
+        &-2 {
+            background: url("../img/destinations/bg_2.png") center (center/cover) no-repeat;
+        }
+        &-3 {
+            background: url("../img/destinations/bg_3.png") center (center/cover) no-repeat;
+        }
+        &-block {
+            width: 315px;
+            height: 130px;
+            background: #FFFFFF;
+            border-radius: 0px 0px 24px 24px;
+        }
+        &-price {
+            display: flex;
+            justify-content: space-between;
+            padding: 27px 25px 19px 20px;
+            &_loc {
+                font-family: "Poppins";
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 124.5%;
+                color: #5E6282;
+            }
+            &_price {
+                font-family: "Poppins";
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 124.5%;
+                color: #5E6282;
+            }
+        }
+        &-trip {
+            padding: 0 0 38px 20px;
+            display: flex;
+            align-items: flex-start;
+            &_img {
+                padding-right: 23px;
+            }
+            &_time {
+                font-family: "Poppins";
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 124.5%;
+                color: #5E6282;
+            }
+        }
+    }
+}
